@@ -1,6 +1,6 @@
 # Veri Yapıları ve Algoritmalar Egzersizleri
 
-## ![Insertion Sort](https://app.patika.dev/moduller/veri-yapilari-ve-algoritmalar/insertion-sort-proje)
+## [Insertion Sort](https://app.patika.dev/moduller/veri-yapilari-ve-algoritmalar/insertion-sort-proje)
 
 **Birinci array: [22,27,16,2,18,6]**
 
