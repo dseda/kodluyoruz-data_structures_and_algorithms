@@ -58,14 +58,18 @@ Root yukarıdaki arrayden rasgele seçilir. Daha sonra array içindeki elemanlar
 7 is the root node of the binary tree
 
 Node {
-data: 5,
-left: Node {
-data: 1,
-left: Node { data: 0, left: null, right: null },
-right: Node { data: 3, left: [Node], right: [Node] }
+
+data: 5, left: Node { data: 1,
+
+                        left: Node { data: 0, left: null, right: null },
+
+                        right: Node { data: 3, left: [Node], right: [Node]
+
+                    }
+
 },
 
-right: Node { data: 6, left: null, right: null }
+        right: Node { data: 6, left: null, right: null }
 
 }
 
