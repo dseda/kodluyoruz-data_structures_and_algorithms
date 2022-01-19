@@ -28,3 +28,19 @@ Average case: O(N^2)
 - AŞAMA 2 : 3, 5, 7, 8, 2, 9, 4, 15, 6
 - AŞAMA 3 : 3, 5, 7, 8, 2, 9, 4, 15, 6
 - AŞAMA 4 : 2, 3, 5, 7, 8, 9, 4, 15, 6
+
+## [Merge Sort](https://app.patika.dev/moduller/veri-yapilari-ve-algoritmalar/merge-sort-proje)
+
+**Sıralanmak istenen array: [22,27,16,2,18,6]**
+Big-O gösterimi : O(N LOG N)
+Best case: O(N LOG N)
+Worst Case: O(N LOG N)
+Average case: O(N LOG N)
+
+Arrayin merge sortta 5 aşaması:
+
+- AŞAMA 1 : 11, 21
+- AŞAMA 2 : 11, 16, 21
+- AŞAMA 3 : 12, 22
+- AŞAMA 4 : 8, 12, 22
+- AŞAMA 5 : 8, 11, 12, 16, 21, 22
