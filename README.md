@@ -55,71 +55,43 @@ Arrayin merge sortta 5 aşaması:
 
 Root yukarıdaki arrayden rasgele seçilir. Daha sonra array içindeki elemanlar teker teker tree'ye eklenir. Output aşağıdaki gibidir.
 
+```
 7 is the root node of the binary tree
 
 Node {
-
-data: 5, left: Node { data: 1,
-
-                        left: Node { data: 0, left: null, right: null },
-
-                        right: Node { data: 3, left: [Node], right: [Node]
-
-                    }
-
-},
-
-        right: Node { data: 6, left: null, right: null }
-
-}
-
-Node {
-
+data: 5,
+left: Node {
 data: 1,
-
 left: Node { data: 0, left: null, right: null },
-
+right: Node { data: 3, left: [Node], right: [Node] }
+},
+right: Node { data: 6, left: null, right: null }
+}
+Node {
+data: 1,
+left: Node { data: 0, left: null, right: null },
 right: Node {
-
 data: 3,
-
 left: Node { data: 2, left: null, right: null },
-
 right: Node { data: 4, left: null, right: null }
-
 }
-
 }
-
 Node {
-
 data: 8,
-
 left: null,
-
 right: Node { data: 9, left: null, right: null }
-
 }
-
 Node {
-
 data: 3,
-
 left: Node { data: 2, left: null, right: null },
-
 right: Node { data: 4, left: null, right: null }
-
 }
-
 Node { data: 6, left: null, right: null }
-
 Node { data: 0, left: null, right: null }
-
 Node { data: 9, left: null, right: null }
-
 Node { data: 4, left: null, right: null }
-
 Node { data: 2, left: null, right: null }
+```
 
 ### Binary Tree Illustration
 
